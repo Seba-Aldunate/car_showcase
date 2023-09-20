@@ -7,7 +7,7 @@
 
 import Image from "next/image";
 
-import { CustomBottunProps } from "@/types";
+import { CustomButtonProps } from "@/types";
 
 const CustomButton = ({
   title,
@@ -16,7 +16,7 @@ const CustomButton = ({
   btnType,
   textStyles,
   rightIcon,
-}: CustomBottunProps) => {
+}: CustomButtonProps) => {
   return (
     <button
       disabled={false}
