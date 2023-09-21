@@ -15,7 +15,7 @@ const SearchManufacturer = ({
 
   const filteredManufacturers =
     query === "" // Consulta si hay query
-      ? manufacturers // si no la hay retorna todas las marcas.
+      ? manufacturers // si no la hay retorna todas las marcas
       : manufacturers.filter(
           (
             item // else retorna las marcas con los siguientes filtros
